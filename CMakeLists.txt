@@ -6,10 +6,10 @@ set(CMAKE_OSX_DEPLOYMENT_TARGET "13.0" CACHE STRING "Minimum macOS version")
 add_subdirectory(JUCE)
 
 juce_add_plugin(Degrade
-    COMPANY_NAME           "Lmos"
+    COMPANY_NAME           "madebymolo"
     PLUGIN_MANUFACTURER_CODE Lmos
     PLUGIN_CODE             Degd
-    FORMATS                 AU
+    FORMATS                 AU VST3
     PRODUCT_NAME            "Degrade"
     IS_SYNTH                FALSE
     NEEDS_MIDI_INPUT        FALSE
